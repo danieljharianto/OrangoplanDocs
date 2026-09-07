@@ -2,30 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
     </url>
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/Authorship/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
     </url>
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/Home/Getting_Started/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
     </url>
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/Home/References/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
     </url>
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/Wrk_Features/Analysis/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
     </url>
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/Wrk_Features/Design/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
+    </url>
+    <url>
+         <loc>https://danieljansenh.github.io/OrangoPlan/Wrk_Features/Table/</loc>
+         <lastmod>2026-09-07</lastmod>
     </url>
     <url>
          <loc>https://danieljansenh.github.io/OrangoPlan/Wrk_Features/Utility/</loc>
-         <lastmod>2026-02-04</lastmod>
+         <lastmod>2026-09-07</lastmod>
     </url>
 </urlset>
