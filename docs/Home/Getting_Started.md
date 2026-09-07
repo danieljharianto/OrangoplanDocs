@@ -1,11 +1,7 @@
----
-hide:
-  - toc
----
-
-
 ##Installation
-OrangoPlan will be deployed to Rhino through the package manager. Distribution is currently in progress. For updates and additional information, see **[Food4Rhino](https://www.food4rhino.com/en/app/orangoplan)**.
+OrangoPlan is available through Rhino's Package Manager. In Rhino, run the `_PackageManager` command, search for **orangoplan**, and install. It can also be downloaded from **[Food4Rhino](https://www.food4rhino.com/en/app/orangoplan)**. Restart Rhino after installing to load the plugin.
+
+![Orangoplan](../assets/Sc_Package.png "Package") 
 
 ##System Requirements
 

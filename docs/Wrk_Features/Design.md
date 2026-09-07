@@ -1,10 +1,4 @@
----
-hide:
-  # - navigation
-  - toc
----
-
-##Design
+#Design
 Design Tools enable designers to test and compare spatial, environmental, and performance criteria directly within parametric models. The tools are divided into three categories: Road Tools, for generating and refining street geometry and sections; Parcel and Building Tools, for shaping parcels, extruding buildings, and managing design attributes; and Viewport Tools, for visualizing density, height, and other spatial performance metrics in real time.
 
 ### Road Tools
@@ -71,10 +65,10 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       </td>
       <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Chamfer curve based on relevant offset width</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">U</td>
-      <td style="padding:12px; border:1px solid #ddd;">Union Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union Curve</td>
       <td style="padding:12px; border:1px solid #ddd;">Union curve to split</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
-      <td style="padding:12px; border:1px solid #ddd;">Chamfer Radius</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer Boundaries</td>
       <td style="padding:12px; border:1px solid #ddd;">Chamfer boundaries</td>
     </tr>
     <tr>
@@ -90,7 +84,7 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       <td style="padding:12px; border:1px solid #ddd;">Widths</td>
       <td style="padding:12px; border:1px solid #ddd;">Widths for each offset curve</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
-      <td style="padding:12px; border:1px solid #ddd;">Result Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfered Curves</td>
       <td style="padding:12px; border:1px solid #ddd;">Chamfered closed curves</td>
     </tr>
     <tr>
@@ -112,11 +106,11 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       </td>
       <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Fillet curve based on relevant offset width</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">U</td>
-      <td style="padding:12px; border:1px solid #ddd;">Union Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union Curve</td>
       <td style="padding:12px; border:1px solid #ddd;">Union curve to split</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
-      <td style="padding:12px; border:1px solid #ddd;">Chamfer Radius</td>
-      <td style="padding:12px; border:1px solid #ddd;">Chamfer boundaries</td>
+      <td style="padding:12px; border:1px solid #ddd;">Fillet Boundaries</td>
+      <td style="padding:12px; border:1px solid #ddd;">Fillet boundaries</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">O</td>
@@ -131,13 +125,13 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       <td style="padding:12px; border:1px solid #ddd;">Widths</td>
       <td style="padding:12px; border:1px solid #ddd;">Widths for each offset curve</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
-      <td style="padding:12px; border:1px solid #ddd;">Result Curves</td>
-      <td style="padding:12px; border:1px solid #ddd;">Chamfered closed curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Filleted Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Filleted closed curves</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
       <td style="padding:12px; border:1px solid #ddd;">Ratio</td>
-      <td style="padding:12px; border:1px solid #ddd;">Chamfer circle radius ratio</td>
+      <td style="padding:12px; border:1px solid #ddd;">Fillet circle radius ratio</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
@@ -151,13 +145,13 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
           <span>Road Section</span>
         </div>
       </td>
-      <td rowspan="8" style="padding:12px; border:1px solid #ddd; vertical-align:middle;"></td>
+      <td rowspan="8" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create road section</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Hc</td>
       <td style="padding:12px; border:1px solid #ddd;">Headway Count</td>
       <td style="padding:12px; border:1px solid #ddd;">Number of headways per side</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rects</td>
-      <td style="padding:12px; border:1px solid #ddd;">Section Rectngles</td>
-      <td style="padding:12px; border:1px solid #ddd;">Closed rectangles for each section parts</td>
+      <td style="padding:12px; border:1px solid #ddd;">Section Rectangles</td>
+      <td style="padding:12px; border:1px solid #ddd;">Closed rectangles for each section part</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Hw</td>
@@ -165,19 +159,19 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       <td style="padding:12px; border:1px solid #ddd;">Width of each headway</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Geo</td>
       <td style="padding:12px; border:1px solid #ddd;">Embedded Geometry</td>
-      <td style="padding:12px; border:1px solid #ddd;">Embedded car/geometry placed on suitable sections</td>
+      <td style="padding:12px; border:1px solid #ddd;">Embedded car/tree geometry placed on suitable sections</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pc</td>
       <td style="padding:12px; border:1px solid #ddd;">Ped Count</td>
-      <td style="padding:12px; border:1px solid #ddd;">Number of pedestrian path per side</td>
+      <td style="padding:12px; border:1px solid #ddd;">Number of pedestrian paths per side</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pw</td>
-      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Ped Width</td>
       <td style="padding:12px; border:1px solid #ddd;">Width of each pedestrian path</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
@@ -202,7 +196,7 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">H</td>
       <td style="padding:12px; border:1px solid #ddd;">Lane Height</td>
-      <td style="padding:12px; border:1px solid #ddd;">Height od section rectangles</td>
+      <td style="padding:12px; border:1px solid #ddd;">Height of section rectangles</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
@@ -302,8 +296,8 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">A</td>
-      <td style="padding:12px; border:1px solid #ddd;">Area</td>
-      <td style="padding:12px; border:1px solid #ddd;">Area of closed curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Areas</td>
+      <td style="padding:12px; border:1px solid #ddd;">Areas of each parcel</td>
     </tr>
 
     <!-- Calculate Parcel -->
@@ -368,8 +362,8 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       <td style="padding:12px; border:1px solid #ddd;">Curves</td>
       <td style="padding:12px; border:1px solid #ddd;">Footprint curves</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">All</td>
-      <td style="padding:12px; border:1px solid #ddd;">All Extrusion</td>
-      <td style="padding:12px; border:1px solid #ddd;">All extrude volumes</td>
+      <td style="padding:12px; border:1px solid #ddd;">All Extrusions</td>
+      <td style="padding:12px; border:1px solid #ddd;">All extruded volumes</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">T</td>
@@ -382,7 +376,7 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">F</td>
       <td style="padding:12px; border:1px solid #ddd;">Floors</td>
-      <td style="padding:12px; border:1px solid #ddd;">Floor count for each cruve</td>
+      <td style="padding:12px; border:1px solid #ddd;">Floor count for each item</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Tower</td>
       <td style="padding:12px; border:1px solid #ddd;">Tower Extrusions</td>
       <td style="padding:12px; border:1px solid #ddd;">Extrusions for tower buildings</td>
@@ -390,7 +384,7 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">H</td>
       <td style="padding:12px; border:1px solid #ddd;">Floor Height</td>
-      <td style="padding:12px; border:1px solid #ddd;">Height on one floor</td>
+      <td style="padding:12px; border:1px solid #ddd;">Height of one floor</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
@@ -436,13 +430,13 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Labels</td>
-      <td style="padding:12px; border:1px solid #ddd;">Text Items</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of text to display</td>
+      <td style="padding:12px; border:1px solid #ddd;">Labels</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of labels to display</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
       <td style="padding:12px; border:1px solid #ddd;">Values</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of segment values</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of values</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
@@ -450,9 +444,9 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
       <td style="padding:12px; border:1px solid #ddd;">Rectangle fill color</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rd</td>
-      <td style="padding:12px; border:1px solid #ddd;">Radius</td>
-      <td style="padding:12px; border:1px solid #ddd;">Radius of the pie chart</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Max Width</td>
+      <td style="padding:12px; border:1px solid #ddd;">Maximum rectangle width in pixels</td>
     </tr>
 
     <!-- Custom Viewport Pie -->
@@ -463,18 +457,18 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
           <span>Viewport Pie</span>
         </div>
       </td>
-      <td rowspan="5" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create custom pie preview</td>
+      <td rowspan="5" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create custom pie chart preview</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pos</td>
       <td style="padding:12px; border:1px solid #ddd;">Position</td>
-      <td style="padding:12px; border:1px solid #ddd;">Start location for drawing bars</td>
+      <td style="padding:12px; border:1px solid #ddd;">Center of the pie chart</td>
       <td rowspan="5" style="border:1px solid #ddd;"></td>
       <td rowspan="5" style="border:1px solid #ddd;"></td>
       <td rowspan="5" style="border:1px solid #ddd;"></td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Labels</td>
-      <td style="padding:12px; border:1px solid #ddd;">Text Items</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of text to display</td>
+      <td style="padding:12px; border:1px solid #ddd;">Labels</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of segment labels</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
@@ -483,13 +477,13 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
-      <td style="padding:12px; border:1px solid #ddd;">Color</td>
-      <td style="padding:12px; border:1px solid #ddd;">Rectangle fill color</td>
+      <td style="padding:12px; border:1px solid #ddd;">Colors</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of segment colors</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
-      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
-      <td style="padding:12px; border:1px solid #ddd;">Maximum rectangle width in pixels</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Radius</td>
+      <td style="padding:12px; border:1px solid #ddd;">Radius of the pie chart</td>
     </tr>
   </tbody>
 </table>

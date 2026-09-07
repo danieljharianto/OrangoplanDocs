@@ -1,10 +1,4 @@
----
-hide:
-  # - navigation
-  - toc
----
-
-##Analysis
+#Analysis
 Analysis Tools allow designers to perform real-time analysis of spatial and urban performance within the model. The tools are divided into two categories: Geometric Analysis, for evaluating spatial properties such as area, density, parcel metrics, and dimensional relationships; and Network Analysis, for assessing connectivity, accessibility, and movement performance across street and path networks.
 
 !!! Tip  "Important Tips"

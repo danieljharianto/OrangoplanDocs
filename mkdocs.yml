@@ -1,6 +1,6 @@
-site_name: OrangoPlan 
+site_name: orangoplan 
 site_url: https://danieljansenh.github.io/OrangoPlan/
-copyright: Copyright © 2025 Daniel J Harianto
+copyright: Copyright © 2026 Daniel Harianto
 
 
 extra_css:
@@ -43,11 +43,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.indexes
+    - toc.integrate
     - search.disabled
     - search.highlight
     - content.code.copy
     - content.code.select
-    - toc.hide
 
   font:
     text: Work Sans
@@ -69,17 +70,17 @@ theme:
 #   - search
 
 nav:
-  - Home: 
-    - Introduction: index.md
+  - Home:
+    - index.md
     - Getting Started: Home/Getting_Started.md
     - References: Home/References.md
-  - Features: 
-    - Analysis: Wrk_Features/Analysis.md
-    - Design: Wrk_Features/Design.md
-    - Utility: Wrk_Features/Utility.md
+  - Analysis: Wrk_Features/Analysis.md
+  - Design: Wrk_Features/Design.md
+  - Utility: Wrk_Features/Utility.md
+  - Table: Wrk_Features/Table.md
   - About: Authorship.md
 
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/danieljansenh
+      link: https://github.com/danieljharianto

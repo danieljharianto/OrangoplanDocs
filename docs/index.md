@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-
+# OrangoPlan {: style="display:none;" }
 
 <p align="center">
   <img src="assets/001.png" alt="Orangoplan" width="600">
